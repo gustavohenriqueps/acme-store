@@ -36,7 +36,6 @@ const Popular = ({ side = "left", isMain = true }: PopularProps) => {
       locale={locale}
       imageSizes="(max-width: 1024px) 100vw, 672px"
       containerClasses="min-h-[420px] lg:min-h-[832px] lg:max-h-[832px] w-full lg:max-w-2xl"
-      priority
     />
   );
 

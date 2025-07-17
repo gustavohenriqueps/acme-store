@@ -48,7 +48,6 @@ const ProductCart = ({ product }: ProductCartProps) => {
           alt={product.alt[locale]}
           width={176}
           height={176}
-          priority
           sizes="(max-width:640px) 112px, 176px"
           className="object-cover min-w-28 size-28 max-w-28 sm:min-w-44 sm:size-44 sm:max-w-44 rounded"
         />

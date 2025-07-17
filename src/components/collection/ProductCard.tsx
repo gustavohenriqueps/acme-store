@@ -29,7 +29,6 @@ const ProductCard = ({
           alt={product.alt[locale]}
           fill
           sizes="(max-width: 1024px) 384px, 25vw"
-          priority
           className="object-cover group-hover:brightness-110 transition-all duration-300"
         />
       </div>
