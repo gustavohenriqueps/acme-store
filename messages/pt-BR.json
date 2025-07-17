@@ -1,0 +1,367 @@
+{
+  "signUp": {
+    "title": "Crie sua conta",
+    "alreadyHaveAccount": "Já tem uma conta?",
+    "signInNow": "Entre aqui",
+    "name": "Nome Completo",
+    "email": "Endereço de E-mail",
+    "password": "Senha",
+    "rememberMe": "Lembrar-me",
+    "signUpButton": "Cadastrar",
+    "orContinueWith": "Ou continue com",
+    "errors": {
+      "nameRequired": "Nome completo é obrigatório.",
+      "emailRequired": "Endereço de e-mail é obrigatório.",
+      "emailInvalid": "Endereço de e-mail inválido.",
+      "passwordMinLength": "A senha deve ter pelo menos 6 caracteres."
+    }
+  },
+  "signIn": {
+    "title": "Acesse sua conta",
+    "notHaveAccount": "Ainda não tem uma conta?",
+    "createAccountNow": "Crie sua conta agora",
+    "email": "Endereço de E-mail",
+    "password": "Senha",
+    "rememberMe": "Lembrar-me",
+    "forgotPassword": "Esqueceu sua senha?",
+    "signInButton": "Entrar",
+    "orContinueWith": "Ou continue com",
+    "errors": {
+      "emailRequired": "Endereço de e-mail é obrigatório.",
+      "emailInvalid": "Endereço de e-mail inválido.",
+      "passwordRequired": "Senha é obrigatória.",
+      "invalidCredentials": "Email ou senha invalida! Por favor tente novamente."
+    }
+  },
+  "orderHistoryPage": {
+    "title": "Histórico de Pedidos",
+    "description": "Verifique o status de seus pedidos recentes, gerencie devoluções e baixe faturas.",
+    "date": "Data do Pedido",
+    "orderNumber": "Número do Pedido",
+    "total": "Total",
+    "viewInvoice": "Ver Fatura",
+    "product": "Produto",
+    "price": "Preço",
+    "status": "Status",
+    "actions": "Ações",
+    "statusPreparing": "Preparando para Envio",
+    "viewProduct": "Ver Detalhes do Produto",
+    "loadingOrders": "Carregando histórico de pedidos...",
+    "noOrdersTitle": "Nenhum Pedido Encontrado",
+    "noOrdersDescription": "Parece que você ainda não fez nenhum pedido. Que tal explorar nossa loja?",
+    "continueShopping": "Continuar Comprando"
+  },
+  "navbar": {
+    "signIn": "Entrar",
+    "signUp": "Criar uma Conta",
+    "desktopLinks": {
+      "home": "Início",
+      "collection": "Coleção",
+      "about": "Sobre Nós",
+      "stores": "Lojas"
+    }
+  },
+  "mobileMenu": {
+    "sheetTitle": "Coleções",
+    "sheetImages": {
+      "0": {
+        "label": "Moda Feminina",
+        "alt": "Mulher com top preto e jeans rasgado posando com atitude em uma rua urbana ao pôr do sol."
+      },
+      "1": {
+        "label": "Moda Masculina",
+        "alt": "Homem estiloso com camisa branca estampada e calça bege posando em uma avenida arborizada ao entardecer."
+      },
+      "2": {
+        "label": "Mais Vendidos",
+        "alt": "Mulher elegante sentada nos degraus com look preto total, óculos escuros e colares prateados."
+      },
+      "3": {
+        "label": "Todas as Coleções",
+        "alt": "Duas mulheres com casacos de inverno posando com confiança sob um céu azul claro."
+      }
+    },
+    "sheetLinks": {
+      "0": {
+        "label": "Início"
+      },
+      "1": {
+        "label": "Coleções"
+      },
+      "2": {
+        "label": "Pedidos"
+      },
+      "3": {
+        "label": "Sobre Nós"
+      },
+      "4": {
+        "label": "Entrar"
+      },
+      "5": {
+        "label": "Criar Conta"
+      },
+      "6": {
+        "label": "Sair"
+      }
+    }
+  },
+  "hero": {
+    "newCollection": "Nova Coleção 2025",
+    "headline": "Estilo Essencial. Sem Exageros.",
+    "paragraph1": "Descubra roupas básicas com design minimalista e atitude urbana. Peças versáteis, feitas para durar e combinar com tudo — do casual ao sofisticado.",
+    "paragraph2": "Elegância no cotidiano, conforto na rotina.",
+    "exploreProductsButton": "Explore Nossos Produtos",
+    "heroImageAlt": "Modelo vestindo roupa básica estilo streetwear"
+  },
+  "ourPhilosophy": {
+    "subtitle": "Nossa Filosofia",
+    "headline": "Atemporal, Consciente e Essencial",
+    "paragraph1": "Criamos roupas que resistem ao tempo — em estilo, qualidade e propósito. Sem excessos, sem tendências passageiras. Apenas o necessário, feito com intenção.",
+    "paragraph2": "Design inteligente. Produção responsável. Estilo duradouro."
+  },
+  "essentialSection": {
+    "subtitle": "Compromisso com o Essencial",
+    "headline": "Detalhes que Fazem a Diferença",
+    "paragraph1": "Da escolha dos tecidos à modelagem precisa, cada peça é feita para vestir com conforto e cair bem em qualquer ocasião. O design é sutil, mas pensado para durar — no tempo e no estilo.",
+    "paragraph2": "Porque o verdadeiro luxo está na simplicidade bem-feita."
+  },
+  "modaSection": {
+    "subtitle": "Produção Responsável",
+    "headline": "Moda Sem Pressa",
+    "paragraph1": "Valorizamos o tempo necessário para fazer bem-feito. Nossas peças são criadas em pequenas coleções, com respeito ao processo, às pessoas e ao planeta.",
+    "paragraph2": "Escolhas conscientes criam estilos duradouros."
+  },
+  "cart": {
+    "title": "Carrinho de Compras",
+    "emptyCart": "Seu carrinho está vazio. Que tal explorar nossos produtos?",
+    "orderSummary": "Resumo do Pedido",
+    "subtotal": "Subtotal",
+    "standardDeliveryFee": "Taxa de Entrega Padrão",
+    "total": "Total do Pedido",
+    "continueToPaymentButton": "Continuar para o Pagamento",
+    "continueToLoginButton": "Entrar em sua conta",
+    "availableStatus": "Disponível"
+  },
+  "checkoutForm": {
+    "shippingInformation": {
+      "title": "Informações de Envio",
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "address": "Endereço",
+      "addressComplement": "Apartamento, bloco, etc. (Opcional)",
+      "city": "Cidade",
+      "state": "Estado/Província",
+      "postalCode": "CEP",
+      "country": "País",
+      "phone": "Telefone"
+    },
+    "deliveryMethod": {
+      "title": "Método de Envio",
+      "standard": {
+        "title": "Padrão",
+        "description": "4 a 10 dias úteis"
+      },
+      "express": {
+        "title": "Expresso",
+        "description": "2 a 5 dias úteis"
+      }
+    },
+    "payment": {
+      "title": "Pagamento",
+      "creditCard": {
+        "title": "Cartão de Crédito",
+        "cardNumber": "Número do Cartão",
+        "nameOnCard": "Nome no Cartão",
+        "expirationDate": "Validade (MM/AA)",
+        "cvc": "CVC"
+      }
+    },
+    "validation": {
+      "required": "Campo obrigatório.",
+      "invalidCardNumber": "Número do cartão inválido.",
+      "minLength": "Informe no mínimo {count} caracteres.",
+      "maxLength": "Informe no máximo {count} caracteres.",
+      "invalidCvc": "CVC inválido.",
+      "invalidExpirationDateFormat": "Formato inválido. Use MM/AA.",
+      "onlyDigits": "Formato inválido. Use apenas números.",
+      "expirationDateInPast": "A data de validade não pode ser no passado."
+    },
+    "countries": {
+      "brazil": "Brasil",
+      "usa": "Estados Unidos",
+      "canada": "Canadá"
+    }
+  },
+  "orderSummary": {
+    "title": "Resumo do Pedido",
+    "subtotal": "Subtotal",
+    "shipping": "Frete",
+    "taxes": "Impostos",
+    "total": "Total do Pedido",
+    "confirmOrderButton": "Finalizar Pedido",
+    "removeItem": "Remover {itemName} do carrinho.",
+    "selectQuantity": "Selecionar quantidade"
+  },
+  "thanksPage": {
+    "paymentSuccessful": "Pagamento Realizado com Sucesso!",
+    "title": "Obrigado Pelo Seu Pedido!",
+    "description": "Agradecemos pelo seu pedido e já estamos processando-o. Enviaremos uma confirmação para o seu e-mail em breve.",
+    "trackingNumber": "Código de Rastreamento",
+    "quantity": "Quantidade: {qty}",
+    "subtotal": "Subtotal",
+    "shipping": "Frete",
+    "taxes": "Impostos",
+    "total": "Total",
+    "shippingAddress": "Endereço de Entrega",
+    "paymentInformation": "Informações de Pagamento",
+    "endingWith": "Final {last4}",
+    "expires": "Expira em {date}",
+    "continueShopping": "Continuar Comprando",
+    "imageAlt": "Foto de uma mulher feliz com sua compra, segurando várias sacolas de compras.",
+    "countries": {
+      "brazil": "Brasil",
+      "usa": "Estados Unidos",
+      "canada": "Canadá"
+    }
+  },
+  "productDetails": {
+    "colorLabel": "Cor",
+    "quantityLabel": "Quantidade",
+    "sizeLabel": "Tamanho",
+    "seeAllReviews": "Ver todas as {count} avaliações",
+    "addToCartButton": "Adicionar ao Carrinho",
+    "descriptionLabel": "Descrição",
+    "internationalDeliveryTitle": "Envio Global",
+    "internationalDeliveryText": "Entrega internacional disponível para sua comodidade.",
+    "loyaltyRewardsTitle": "Recompensas Exclusivas",
+    "loyaltyRewardsText": "Acumule pontos e benefícios a cada compra.",
+    "addedToCart": "Produto adicionado ao carrinho!"
+  },
+  "productImage": {
+    "seeAllReviews": "Ver {count} avaliações"
+  },
+  "notFoundPage": {
+    "code": "404",
+    "title": "Página Não Encontrada",
+    "description": "Desculpe, não conseguimos encontrar a página que você está procurando.",
+    "backToHome": "Voltar para a Página Inicial"
+  },
+  "productNotFound": {
+    "code": "404",
+    "title": "Produto Não Encontrado",
+    "description": "Ops! Não conseguimos encontrar o produto que você procura. Ele pode ter sido removido ou o link está incorreto.",
+    "backToProducts": "Voltar para a Coleção",
+    "backToHome": "Voltar para a Página Inicial"
+  },
+  "common": {
+    "goBack": "Voltar"
+  },
+  "collectionPage": {
+    "title": "Explore Nossos Produtos",
+    "description": "Descubra a coleção que define estilo sem esforço e qualidade excepcional."
+  },
+  "noResultsFound": {
+    "title": "Ops! Nenhum Produto Encontrado.",
+    "description": "Parece que sua busca ou seus filtros não retornaram resultados. Tente ajustar suas opções ou limpar todos os filtros.",
+    "clearFiltersButton": "Limpar Filtros"
+  },
+  "filters": {
+    "buttonText": "Filtros",
+    "sheetTitle": "Filtros",
+    "sheetDescription": "Selecione as opções de filtro abaixo para refinar sua busca.",
+    "clearFiltersButton": "Limpar Filtros",
+    "colors": {
+      "title": "Cor",
+      "items": {
+        "black": "Preto",
+        "matteBlack": "Preto Fosco",
+        "gray": "Cinza",
+        "heatherGray": "Cinza Mesclado",
+        "lightYellow": "Amarelo Claro",
+        "brown": "Marrom",
+        "natural": "Natural",
+        "oliveGreen": "Verde Oliva",
+        "walnut": "Nogueira"
+      }
+    },
+    "categories": {
+      "title": "Categoria",
+      "items": {
+        "clothes": "Roupas",
+        "shoes": "Calçados",
+        "accessories": "Acessórios"
+      }
+    },
+    "sizes": {
+      "title": "Tamanho"
+    }
+  },
+  "expandableSearchInput": {
+    "placeholder": "Pesquise por produtos..."
+  },
+  "footer": {
+    "categories": {
+      "title": "Categorias",
+      "links": ["Masculino", "Feminino", "Acessórios", "Calçados", "Promoções"]
+    },
+    "about": {
+      "title": "Institucional",
+      "links": ["Sobre nós", "Blog", "Carreiras", "Lojas físicas"]
+    },
+    "support": {
+      "title": "Atendimento",
+      "links": [
+        "Fale conosco",
+        "Trocas e devoluções",
+        "Rastrear pedido",
+        "Perguntas frequentes"
+      ]
+    },
+    "legal": {
+      "title": "Legal",
+      "links": [
+        "Termos de uso",
+        "Política de privacidade",
+        "Política de cookies"
+      ]
+    }
+  },
+  "newsletter": {
+    "title": "Assine nossa newsletter de moda",
+    "description": "Receba dicas de estilo, ofertas exclusivas e as últimas tendências diretamente no seu e-mail.",
+    "placeholder": "Digite seu e-mail",
+    "button": "Assinar"
+  },
+  "testimonials": {
+    "title": "Avaliações recentes",
+    "reviews": [
+      {
+        "name": "Mariana S.",
+        "date": "3 de maio de 2025",
+        "rate": 5,
+        "title": "Simplesmente perfeito!",
+        "description1": "Fiquei super satisfeita com toda a experiência de compra. A embalagem veio caprichada e com um toque especial.",
+        "description2": "A qualidade da roupa é excelente e o caimento ficou perfeito. Já recomendei a loja para meus amigos!"
+      },
+      {
+        "name": "Felipe R.",
+        "date": "2 de maio de 2025",
+        "rate": 5,
+        "title": "Confortável e estiloso",
+        "description1": "As peças são extremamente confortáveis e têm muito estilo. Perfeitas para o dia a dia e até ocasiões mais arrumadas.",
+        "description2": "A entrega foi super rápida e o atendimento nota 10. Vou comprar novamente com certeza!"
+      },
+      {
+        "name": "Beatriz M.",
+        "date": "30 de abril de 2025",
+        "rate": 4,
+        "title": "Meus favoritos do guarda-roupa",
+        "description1": "As camisetas têm um tecido maravilhoso e continuam impecáveis mesmo após várias lavagens.",
+        "description2": "Vale muito o investimento, principalmente pela durabilidade. Recomendo de olhos fechados."
+      }
+    ]
+  },
+  "moreProducts": {
+    "title": "Produtos que você pode gostar"
+  }
+}

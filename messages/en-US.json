@@ -1,0 +1,348 @@
+{
+  "signUp": {
+    "title": "Create Your Account",
+    "alreadyHaveAccount": "Already have an account?",
+    "signInNow": "Sign In Now",
+    "name": "Full Name",
+    "email": "Email Address",
+    "password": "Password",
+    "rememberMe": "Remember Me",
+    "signUpButton": "Sign Up",
+    "orContinueWith": "Or continue with",
+    "errors": {
+      "nameRequired": "Full name is required.",
+      "emailRequired": "Email address is required.",
+      "emailInvalid": "Invalid email address.",
+      "passwordMinLength": "Password must be at least 6 characters long."
+    }
+  },
+  "signIn": {
+    "title": "Sign In to Your Account",
+    "notHaveAccount": "Don't have an account?",
+    "createAccountNow": "Create your account now",
+    "email": "Email Address",
+    "password": "Password",
+    "rememberMe": "Remember Me",
+    "forgotPassword": "Forgot your password?",
+    "signInButton": "Sign In",
+    "orContinueWith": "Or continue with",
+    "errors": {
+      "emailRequired": "Email address is required.",
+      "emailInvalid": "Invalid email address.",
+      "passwordRequired": "Password is required.",
+      "invalidCredentials": "Invalid email or password. Please try again."
+    }
+  },
+  "orderHistoryPage": {
+    "title": "Order History",
+    "description": "Check the status of your recent orders, manage returns, and download invoices.",
+    "date": "Order Date",
+    "orderNumber": "Order Number",
+    "total": "Total",
+    "viewInvoice": "View Invoice",
+    "product": "Product",
+    "price": "Price",
+    "status": "Status",
+    "actions": "Actions",
+    "statusPreparing": "Preparing for Shipping",
+    "viewProduct": "View Product Details",
+    "loadingOrders": "Loading order history...",
+    "noOrdersTitle": "No Orders Found",
+    "noOrdersDescription": "It looks like you haven't placed any orders yet. How about exploring our store?",
+    "continueShopping": "Continue Shopping"
+  },
+  "navbar": {
+    "signIn": "Sign In",
+    "signUp": "Create an Account",
+    "desktopLinks": {
+      "home": "Home",
+      "collection": "Collection",
+      "about": "About Us",
+      "stores": "Stores"
+    }
+  },
+  "mobileMenu": {
+    "sheetTitle": "Collections",
+    "sheetImages": {
+      "0": {
+        "label": "Women's Fashion",
+        "alt": "Woman wearing a black top and ripped jeans posing confidently on an urban street at sunset."
+      },
+      "1": {
+        "label": "Men's Fashion",
+        "alt": "Stylish man wearing a patterned white shirt and beige pants posing on a tree-lined avenue at dusk."
+      },
+      "2": {
+        "label": "Best Sellers",
+        "alt": "Stylish woman sitting on stairs wearing an all-black outfit, dark sunglasses, and silver necklaces."
+      },
+      "3": {
+        "label": "All Collections",
+        "alt": "Two women in winter coats confidently posing under a bright blue sky."
+      }
+    },
+    "sheetLinks": {
+      "0": { "label": "Home" },
+      "1": { "label": "Collections" },
+      "2": { "label": "Orders" },
+      "3": { "label": "About Us" },
+      "4": { "label": "Sign In" },
+      "5": { "label": "Create Account" },
+      "6": { "label": "Log Out" }
+    }
+  },
+  "hero": {
+    "newCollection": "New Collection 2025",
+    "headline": "Essential Style. No Excess.",
+    "paragraph1": "Discover basic clothing with minimalist design and urban attitude. Versatile pieces, made to last and combine with everything — from casual to sophisticated.",
+    "paragraph2": "Everyday elegance, routine comfort.",
+    "exploreProductsButton": "Explore Products",
+    "heroImageAlt": "Model wearing basic streetwear style clothing"
+  },
+  "ourPhilosophy": {
+    "subtitle": "Our Philosophy",
+    "headline": "Timeless, Conscious, and Essential",
+    "paragraph1": "We create clothing that stands the test of time — in style, quality, and purpose. No excesses, no fleeting trends. Just what's essential, made with intention.",
+    "paragraph2": "Smart design. Responsible production. Lasting style."
+  },
+  "essentialSection": {
+    "subtitle": "Commitment to the Essential",
+    "headline": "Details That Make the Difference",
+    "paragraph1": "From fabric selection to precise tailoring, each piece is made to fit comfortably and suit any occasion. The design is subtle, but made to last — in time and style.",
+    "paragraph2": "Because true luxury lies in well-made simplicity."
+  },
+  "modaSection": {
+    "subtitle": "Responsible Production",
+    "headline": "Unrushed Fashion",
+    "paragraph1": "We value the time it takes to do things well. Our pieces are created in small collections, with respect for the process, people, and the planet.",
+    "paragraph2": "Conscious choices create lasting styles."
+  },
+  "trendingProducts": {
+    "title": "Our Favorites",
+    "browse": "Browse All Favorites"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "emptyCart": "Your cart is empty. Why not explore our products?",
+    "orderSummary": "Order Summary",
+    "subtotal": "Subtotal",
+    "standardDeliveryFee": "Standard Delivery Fee",
+    "total": "Order Total",
+    "continueToPaymentButton": "Continue to Payment",
+    "continueToLoginButton": "Log In to Your Account",
+    "availableStatus": "Available"
+  },
+  "checkoutForm": {
+    "shippingInformation": {
+      "title": "Shipping Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "address": "Address",
+      "addressComplement": "Apartment, suite, etc. (Optional)",
+      "city": "City",
+      "state": "State/Province",
+      "postalCode": "Postal Code",
+      "country": "Country",
+      "phone": "Phone Number"
+    },
+    "deliveryMethod": {
+      "title": "Delivery Method",
+      "standard": {
+        "title": "Standard",
+        "description": "4-10 business days"
+      },
+      "express": {
+        "title": "Express",
+        "description": "2-5 business days"
+      }
+    },
+    "payment": {
+      "title": "Payment",
+      "creditCard": {
+        "title": "Credit Card",
+        "cardNumber": "Card Number",
+        "nameOnCard": "Name on Card",
+        "expirationDate": "Expiration Date (MM/YY)",
+        "cvc": "CVC"
+      }
+    },
+    "validation": {
+      "required": "This field is required.",
+      "invalidCardNumber": "Invalid card number.",
+      "minLength": "Please enter at least {count} characters.",
+      "maxLength": "Please enter a maximum of {count} characters.",
+      "invalidCvc": "Invalid CVC.",
+      "invalidExpirationDateFormat": "Invalid format. Use MM/YY.",
+      "onlyDigits": "Invalid format. Use numbers only.",
+      "expirationDateInPast": "The expiration date cannot be in the past."
+    },
+    "countries": {
+      "brazil": "Brazil",
+      "usa": "United States",
+      "canada": "Canada"
+    }
+  },
+  "orderSummary": {
+    "title": "Order Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "taxes": "Taxes",
+    "total": "Total",
+    "confirmOrderButton": "Confirm Order",
+    "removeItem": "Remove {itemName} from cart.",
+    "selectQuantity": "Select quantity"
+  },
+  "thanksPage": {
+    "paymentSuccessful": "Payment Successful!",
+    "title": "Thanks for Your Order!",
+    "description": "We appreciate your order and are currently processing it. We'll send you a confirmation to your email very soon!",
+    "trackingNumber": "Tracking Number",
+    "quantity": "Quantity: {qty}",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "taxes": "Taxes",
+    "total": "Total",
+    "shippingAddress": "Shipping Address",
+    "paymentInformation": "Payment Information",
+    "endingWith": "Ending with {last4}",
+    "expires": "Expires {date}",
+    "continueShopping": "Continue Shopping",
+    "imageAlt": "Photo of a woman happy with her purchase, holding several shopping bags.",
+    "countries": {
+      "brazil": "Brazil",
+      "usa": "United States",
+      "canada": "Canada"
+    }
+  },
+  "productDetails": {
+    "colorLabel": "Color",
+    "quantityLabel": "Quantity",
+    "sizeLabel": "Size",
+    "seeAllReviews": "See all {count} reviews",
+    "addToCartButton": "Add to Cart",
+    "descriptionLabel": "Description",
+    "internationalDeliveryTitle": "Global Shipping",
+    "internationalDeliveryText": "International delivery available for your convenience.",
+    "loyaltyRewardsTitle": "Exclusive Rewards",
+    "loyaltyRewardsText": "Earn points and benefits with every purchase.",
+    "addedToCart": "Product added to cart!"
+  },
+  "productImage": {
+    "seeAllReviews": "See {count} reviews"
+  },
+  "notFoundPage": {
+    "code": "404",
+    "title": "Page Not Found",
+    "description": "Sorry, we couldn't find the page you're looking for.",
+    "backToHome": "Back to Home"
+  },
+  "productNotFound": {
+    "code": "404",
+    "title": "Product Not Found",
+    "description": "Oops! We couldn't find the product you're looking for. It might have been removed or the link is incorrect.",
+    "backToProducts": "Back to Collection",
+    "backToHome": "Back to Home"
+  },
+  "common": {
+    "goBack": "Go Back"
+  },
+  "collectionPage": {
+    "title": "Explore Our Products",
+    "description": "Explore a collection that defines effortless style and exceptional quality."
+  },
+  "noResultsFound": {
+    "title": "Oops! No Products Found.",
+    "description": "It seems your search or filters didn't return any results. Try adjusting your options or clearing all filters.",
+    "clearFiltersButton": "Clear Filters"
+  },
+  "filters": {
+    "buttonText": "Filters",
+    "sheetTitle": "Filters",
+    "sheetDescription": "Select the filter options below to refine your search.",
+    "clearFiltersButton": "Clear Filters",
+    "colors": {
+      "title": "Color",
+      "items": {
+        "black": "Black",
+        "matteBlack": "Matte Black",
+        "gray": "Gray",
+        "heatherGray": "Heather Gray",
+        "lightYellow": "Light Yellow",
+        "brown": "Brown",
+        "natural": "Natural",
+        "oliveGreen": "Olive Green",
+        "walnut": "Walnut"
+      }
+    },
+    "categories": {
+      "title": "Category",
+      "items": {
+        "clothes": "Clothes",
+        "shoes": "Footwear",
+        "accessories": "Accessories"
+      }
+    },
+    "sizes": {
+      "title": "Size"
+    }
+  },
+  "expandableSearchInput": {
+    "placeholder": "Search for products..."
+  },
+  "footer": {
+    "categories": {
+      "title": "Categories",
+      "links": ["Men", "Women", "Accessories", "Footwear", "Sale"]
+    },
+    "about": {
+      "title": "Company",
+      "links": ["About us", "Blog", "Careers", "Physical stores"]
+    },
+    "support": {
+      "title": "Support",
+      "links": ["Contact us", "Returns & exchanges", "Track order", "FAQ"]
+    },
+    "legal": {
+      "title": "Legal",
+      "links": ["Terms of service", "Privacy policy", "Cookie policy"]
+    }
+  },
+  "newsletter": {
+    "title": "Join our fashion newsletter",
+    "description": "Get style tips, exclusive offers, and the latest trends delivered to your inbox.",
+    "placeholder": "Enter your email",
+    "button": "Subscribe"
+  },
+  "testimonials": {
+    "title": "Recent reviews",
+    "reviews": [
+      {
+        "name": "Mariana S.",
+        "date": "May 3, 2025",
+        "rate": 5,
+        "title": "Absolutely perfect!",
+        "description1": "I was really impressed with the whole shopping experience. The packaging was thoughtful and elegant.",
+        "description2": "The quality of the clothes is outstanding, and the fit was spot-on. I’ve already recommended the store to friends!"
+      },
+      {
+        "name": "Felipe R.",
+        "date": "May 2, 2025",
+        "rate": 5,
+        "title": "Stylish and comfortable",
+        "description1": "The clothes are incredibly comfortable and stylish — perfect for everyday wear and even semi-formal events.",
+        "description2": "Fast delivery and excellent customer service. I’ll definitely be shopping here again!"
+      },
+      {
+        "name": "Beatriz M.",
+        "date": "April 30, 2025",
+        "rate": 4,
+        "title": "My wardrobe favorites",
+        "description1": "The cotton t-shirts feel amazing and still look brand new even after many washes.",
+        "description2": "Totally worth it for the quality and durability. Highly recommend!"
+      }
+    ]
+  },
+  "moreProducts": {
+    "title": "Products you might like"
+  }
+}
