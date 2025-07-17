@@ -25,16 +25,7 @@ import { Button } from "@/components/ui/button";
 // Libs
 import { formatOrderDate, formatPrice, getColorLabel } from "@/lib/utils";
 
-interface OrderHistoryPageProps {
-  params: {
-    username: string;
-  };
-}
-
-const OrderHistoryPage: React.FC<OrderHistoryPageProps> = ({ params }) => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const { username } = params; // uso somente visual
-
+const OrderHistoryPage = () => {
   const { orders, isLoadingOrders } = useOrders();
   const rawLocale = useLocale();
   const t = useTranslations("orderHistoryPage");

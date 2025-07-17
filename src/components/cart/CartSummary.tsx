@@ -37,7 +37,7 @@ const CartSummary = ({
   const t = useTranslations("cart");
 
   return (
-    <div className="col-span-3 rounded-lg bg-neutral-50 px-4">
+    <div className="col-span-3 rounded-lg ">
       <h2 className="text-2xl tracking-tight font-semibold mb-4 border-b pb-3">
         {t("orderSummary")}
       </h2>
