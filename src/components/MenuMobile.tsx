@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 // Next.js & Next-Intl
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 

@@ -20,7 +20,7 @@ import {
 
 // Next & Next-Intl Imports
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 // Utils
 import { formatPrice, getColorLabel } from "@/lib/utils";

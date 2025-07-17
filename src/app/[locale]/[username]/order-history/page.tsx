@@ -5,7 +5,7 @@ import React from "react";
 
 // Next.js & Next-Intl
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 // Hooks
 import { useLocale, useTranslations } from "next-intl";

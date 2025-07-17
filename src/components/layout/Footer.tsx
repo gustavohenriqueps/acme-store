@@ -1,7 +1,7 @@
 import { FooterSection } from "@/data/types";
 import { useTranslations } from "next-intl";
 import Newsletter from "../Newsletter";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 const SOCIAL_MEDIA = [
   {

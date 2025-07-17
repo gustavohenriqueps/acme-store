@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 // Next & Next-Intl
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 // Hooks
 import { useOrders } from "@/hooks/useOrders";

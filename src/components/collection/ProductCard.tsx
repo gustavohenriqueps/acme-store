@@ -1,7 +1,7 @@
 import { CurrencyType, Product } from "@/data/types";
 import { formatPrice, getColorLabel } from "@/lib/utils";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import React from "react";
 
 interface ProductCardProps {

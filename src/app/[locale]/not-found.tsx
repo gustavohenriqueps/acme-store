@@ -1,6 +1,6 @@
 // Next.js & Next-Intl
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { setRequestLocale } from "next-intl/server"; // Para Server Components
 
 // Componentes

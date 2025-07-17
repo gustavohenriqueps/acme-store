@@ -1,5 +1,5 @@
 // Next.js & Next-Intl
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 // Componentes
 import MenuMobile from "../MenuMobile";

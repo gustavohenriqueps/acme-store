@@ -1,7 +1,7 @@
 "use client";
 
 // Next.js & Next-Intl
-import Link from "next/link";
+
 import { useTranslations } from "next-intl";
 
 // Componentes
@@ -16,6 +16,7 @@ import { useAuth } from "@/hooks/useAuth";
 
 // Ícones
 import { LogOut, ShoppingCart } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 
 const NAVBAR_DESKTOP_LINKS = [
   {
