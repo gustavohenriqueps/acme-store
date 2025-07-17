@@ -16,7 +16,7 @@ type ProductPageProps = {
 };
 
 const ProductPage = async ({ params }: ProductPageProps) => {
-  const { id, locale } = await params;
+  const { id, locale } = params;
 
   const product = AllProducts.find((product) => product.id === id);
 

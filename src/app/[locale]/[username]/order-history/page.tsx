@@ -26,14 +26,14 @@ import { Button } from "@/components/ui/button";
 import { formatOrderDate, formatPrice, getColorLabel } from "@/lib/utils";
 
 interface OrderHistoryPageProps {
-  params: Promise<{
+  params: {
     username: string;
-  }>;
+  };
 }
 
 const OrderHistoryPage: React.FC<OrderHistoryPageProps> = ({ params }) => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const { username } = React.use(params); // uso somente visual
+  const { username } = params; // uso somente visual
 
   const { orders, isLoadingOrders } = useOrders();
   const rawLocale = useLocale();
