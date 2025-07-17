@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "../globals.css";
 import Navbar from "@/components/layout/Navbar";
 import { CurrencyProvider } from "@/context/CurrencyContext";
@@ -73,6 +74,7 @@ export default async function LocaleLayout({
               <CartProvider>
                 <CurrencyProvider>
                   <Navbar />
+                  <SpeedInsights />
                   <main>{children}</main>
                   <Toaster />
                   <Footer />
