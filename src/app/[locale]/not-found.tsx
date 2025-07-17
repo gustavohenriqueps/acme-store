@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 
 interface NotFoundPageProps {
-  locale: "pt-BR" | "en-US";
+  locale: string;
   type?: "page" | "product";
 }
 

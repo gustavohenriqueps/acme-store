@@ -9,7 +9,7 @@ import { AllProducts } from "@/data/products";
 import MoreProducts from "@/components/product/MoreProducts";
 
 type ProductPageProps = {
-  params: Promise<{ id: string; locale: "pt-BR" | "en-US" }>;
+  params: Promise<{ id: string; locale: string }>;
 };
 
 const ProductPage = async ({ params }: ProductPageProps) => {
