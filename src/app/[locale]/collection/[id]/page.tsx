@@ -11,7 +11,7 @@ import MoreProducts from "@/components/product/MoreProducts";
 type ProductPageProps = {
   params: {
     id: string;
-    locale: string;
+    locale: "pt-BR" | "en-US";
   };
 };
 
