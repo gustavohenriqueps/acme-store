@@ -35,7 +35,7 @@ export function ExpandableSearchInput({
     if (!alwaysExpanded) {
       setIsExpanded(true);
       // Foca automaticamente no input ao expandir
-      setTimeout(() => inputRef.current?.focus(), 100);
+      // setTimeout(() => inputRef.current?.focus(), 100);
     }
   };
 

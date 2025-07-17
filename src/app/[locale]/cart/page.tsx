@@ -19,7 +19,7 @@ import { shippingRates } from "@/lib/constants";
 import ProductCart from "@/components/cart/ProductCart";
 import CartSummary from "@/components/cart/CartSummary";
 import { toast } from "sonner";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 
 const Cart = () => {
