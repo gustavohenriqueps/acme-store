@@ -20,7 +20,7 @@ type FilterSectionProps = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   items: any;
   title: string;
-  locale: string;
+  locale: "ptBR" | "enUS";
   isMobile?: boolean;
 };
 
