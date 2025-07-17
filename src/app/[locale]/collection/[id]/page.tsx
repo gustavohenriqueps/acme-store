@@ -7,6 +7,7 @@ import NotFoundPage from "../../not-found";
 // Produtos
 import { AllProducts } from "@/data/products";
 import MoreProducts from "@/components/product/MoreProducts";
+import React from "react";
 
 type ProductPageProps = {
   params: {
