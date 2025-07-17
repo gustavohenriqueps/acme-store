@@ -7,17 +7,13 @@ import NotFoundPage from "../../not-found";
 // Produtos
 import { AllProducts } from "@/data/products";
 import MoreProducts from "@/components/product/MoreProducts";
-import React from "react";
 
 type ProductPageProps = {
-  params: {
-    id: string;
-    locale: "pt-BR" | "en-US";
-  };
+  params: Promise<{ id: string; locale: "pt-BR" | "en-US" }>;
 };
 
 const ProductPage = async ({ params }: ProductPageProps) => {
-  const { id, locale } = params;
+  const { id, locale } = await params;
 
   const product = AllProducts.find((product) => product.id === id);
 
